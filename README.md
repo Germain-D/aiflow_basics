@@ -31,7 +31,7 @@ Le DAG Airflow (`meteo_pipeline`) est constitué de 4 tâches principales:
 git clone https://github.com/Germain-D/aiflow_basics.git
 
 # Lancer l'environnement Airflow avec Docker
-cd meteo-pipeline
+cd airflow_basics
 docker-compose up -d
 
 # Accéder à l'interface Airflow
