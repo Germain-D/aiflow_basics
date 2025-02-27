@@ -1,0 +1,200 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Rapport Météorologique - 2025-02-27</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
+            h1, h2, h3 { color: #2c3e50; }
+            .container { max-width: 1200px; margin: 0 auto; }
+            .header { text-align: center; margin-bottom: 30px; padding-bottom: 20px; border-bottom: 1px solid #eee; }
+            .section { margin-bottom: 30px; }
+            .insights { background-color: #f8f9fa; padding: 20px; border-radius: 5px; }
+            .insights ul { padding-left: 20px; }
+            .city-cards { display: flex; flex-wrap: wrap; justify-content: space-between; }
+            .city-card { width: 30%; margin-bottom: 20px; padding: 15px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+            .viz-section { display: flex; flex-wrap: wrap; justify-content: center; }
+            .viz-item { margin: 10px; text-align: center; }
+            img { max-width: 100%; height: auto; border-radius: 5px; }
+            .footer { text-align: center; margin-top: 50px; padding-top: 20px; border-top: 1px solid #eee; color: #7f8c8d; }
+            table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+            table, th, td { border: 1px solid #ddd; }
+            th, td { padding: El0px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>Rapport Météorologique</h1>
+                <h2>2025-02-27</h2>
+            </div>
+            
+            <div class="section insights">
+                <h2>Insights Clés</h2>
+                <ul>
+                    
+                    <li>La température moyenne est de 9.2°C</li>
+                    
+                    <li>La ville la plus chaude est Rome avec 19.5°C</li>
+                    
+                    <li>La ville la plus froide est London avec 4.1°C</li>
+                    
+                    <li>L'humidité moyenne est de 70.6%</li>
+                    
+                    <li>1 villes ont signalé des précipitations: Berlin</li>
+                    
+                    <li>La température a augmenté de 0.1°C par rapport à la veille</li>
+                    
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h2>Résumé par Ville</h2>
+                <div class="city-cards">
+                    
+                    <div class="city-card">
+                        <h3>Berlin</h3>
+                        <p><strong>Température:</strong> 6.0°C</p>
+                        <p><strong>Humidité:</strong> 88.0%</p>
+                        <p><strong>Pression:</strong> 1018.0 hPa</p>
+                        <p><strong>Vent:</strong> 2.7 m/s</p>
+                        <p><strong>Conditions:</strong> light rain</p>
+                        <p><strong>Catégorie:</strong> Pluvieux</p>
+                    </div>
+                    
+                    <div class="city-card">
+                        <h3>London</h3>
+                        <p><strong>Température:</strong> 4.1°C</p>
+                        <p><strong>Humidité:</strong> 80.0%</p>
+                        <p><strong>Pression:</strong> 1026.0 hPa</p>
+                        <p><strong>Vent:</strong> 0.9 m/s</p>
+                        <p><strong>Conditions:</strong> clear sky</p>
+                        <p><strong>Catégorie:</strong> Froid</p>
+                    </div>
+                    
+                    <div class="city-card">
+                        <h3>Madrid</h3>
+                        <p><strong>Température:</strong> 9.5°C</p>
+                        <p><strong>Humidité:</strong> 71.0%</p>
+                        <p><strong>Pression:</strong> 1018.0 hPa</p>
+                        <p><strong>Vent:</strong> 1.0 m/s</p>
+                        <p><strong>Conditions:</strong> clear sky</p>
+                        <p><strong>Catégorie:</strong> Modéré</p>
+                    </div>
+                    
+                    <div class="city-card">
+                        <h3>Paris</h3>
+                        <p><strong>Température:</strong> 6.8°C</p>
+                        <p><strong>Humidité:</strong> 78.0%</p>
+                        <p><strong>Pression:</strong> 1025.0 hPa</p>
+                        <p><strong>Vent:</strong> 2.6 m/s</p>
+                        <p><strong>Conditions:</strong> overcast clouds</p>
+                        <p><strong>Catégorie:</strong> Modéré</p>
+                    </div>
+                    
+                    <div class="city-card">
+                        <h3>Rome</h3>
+                        <p><strong>Température:</strong> 19.5°C</p>
+                        <p><strong>Humidité:</strong> 36.0%</p>
+                        <p><strong>Pression:</strong> 1015.0 hPa</p>
+                        <p><strong>Vent:</strong> 6.2 m/s</p>
+                        <p><strong>Conditions:</strong> clear sky</p>
+                        <p><strong>Catégorie:</strong> Modéré</p>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Visualisations</h2>
+                <div class="viz-section">
+                    <div class="viz-item">
+                        <h3>Températures par ville</h3>
+                        <img src="visualizations/temperature_chart.png" alt="Températures par ville">
+                    </div>
+                    <div class="viz-item">
+                        <h3>Relation température-humidité</h3>
+                        <img src="visualizations/humidity_temp_chart.png" alt="Relation température-humidité">
+                    </div>
+                    <div class="viz-item">
+                        <h3>Conditions météorologiques</h3>
+                        <img src="visualizations/weather_conditions_chart.png" alt="Conditions météorologiques">
+                    </div>
+                    <div class="viz-item">
+                        <h3>Corrélations</h3>
+                        <img src="visualizations/correlation_chart.png" alt="Corrélations">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Détails des Analyses</h2>
+                <h3>Comparaison entre villes</h3>
+                <table>
+                    <tr>
+                        <th>Ville</th>
+                        <th>Temp. moyenne</th>
+                        <th>Temp. min</th>
+                        <th>Temp. max</th>
+                        <th>Humidité moyenne</th>
+                        <th>Vent moyen</th>
+                    </tr>
+                    
+                    <tr>
+                        <td>Berlin</td>
+                        <td>6.0°C</td>
+                        <td>6.0°C</td>
+                        <td>6.0°C</td>
+                        <td>88.0%</td>
+                        <td>2.7 m/s</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>London</td>
+                        <td>4.1°C</td>
+                        <td>4.1°C</td>
+                        <td>4.1°C</td>
+                        <td>80.0%</td>
+                        <td>0.9 m/s</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Madrid</td>
+                        <td>9.5°C</td>
+                        <td>9.5°C</td>
+                        <td>9.5°C</td>
+                        <td>71.0%</td>
+                        <td>1.0 m/s</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Paris</td>
+                        <td>6.8°C</td>
+                        <td>6.8°C</td>
+                        <td>6.8°C</td>
+                        <td>78.0%</td>
+                        <td>2.6 m/s</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Rome</td>
+                        <td>19.5°C</td>
+                        <td>19.5°C</td>
+                        <td>19.5°C</td>
+                        <td>36.0%</td>
+                        <td>6.2 m/s</td>
+                    </tr>
+                    
+                </table>
+            </div>
+            
+            <div class="footer">
+                <p>Rapport généré automatiquement le 2025-02-27 21:23:55</p>
+                <p>Pipeline Airflow de traitement des données météorologiques</p>
+            </div>
+        </div>
+    </body>
+    </html>
+    
