@@ -44,7 +44,7 @@ env/
 
 # Logs
 *.log
-logs/
+logs/*
 
 # Local development settings
 .env
